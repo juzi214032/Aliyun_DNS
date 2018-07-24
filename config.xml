@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <account>
+        <!--阿里云提供的ID-->
+        <AccessKeyId>LTAIJtKlg7bkcnRP</AccessKeyId>
+        <!--阿里云提供的密码-->
+        <AccessKeySecret>9S4n9PKPjju8cNAq329igdrvQSoFyd</AccessKeySecret>
+    </account>
+
+    <domain>
+        <!--你的域名（一级域名）-->
+        <DomainName>juzibiji.top</DomainName>
+        <!--你的解析记录ID，若不知道可以留空（会根据RR值自动获取）-->
+        <RecordId></RecordId>
+        <!--你的解析记录（不要带上 一级域名，如pan.baidu.com的解析记录，只需要填写pan）-->
+        <RR>cqupt</RR>
+        <!--解析记录类型-->
+        <Type>A</Type>
+        <!--需要改为哪个域名的IP-->
+        <InetAddress>www.baidu.com</InetAddress>
+        <!--IP更新频率（单位：秒）-->
+        <update-time>60</update-time>
+    </domain>
+
+</config>
