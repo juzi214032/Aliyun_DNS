@@ -2,9 +2,9 @@
 <config>
     <account>
         <!--阿里云提供的ID-->
-        <AccessKeyId>LTAIJtKlg7bkcnRP</AccessKeyId>
+        <AccessKeyId>*****</AccessKeyId>
         <!--阿里云提供的密码-->
-        <AccessKeySecret>9S4n9PKPjju8cNAq329igdrvQSoFyd</AccessKeySecret>
+        <AccessKeySecret>*****</AccessKeySecret>
     </account>
 
     <domain>
@@ -13,7 +13,7 @@
         <!--你的解析记录ID，若不知道可以留空（会根据RR值自动获取）-->
         <RecordId></RecordId>
         <!--你的解析记录（不要带上 一级域名，如pan.baidu.com的解析记录，只需要填写pan）-->
-        <RR>cqupt</RR>
+        <RR>pan</RR>
         <!--解析记录类型-->
         <Type>A</Type>
         <!--需要改为哪个域名的IP-->
